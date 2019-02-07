@@ -1,6 +1,6 @@
-n=int(input())
-a=0
+p=int(input())
+s=0
 while(n>0):
-	a=a+n
-	n=n-1
-print(a)
+	s=s+p
+	p=p-1
+print(s)
