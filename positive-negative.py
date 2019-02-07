@@ -1,6 +1,6 @@
 while True:
 	try:
-		a=inpu
+		a=input("")
 		val=int(a)
 		break
 	except:
