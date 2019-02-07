@@ -7,8 +7,8 @@ while True:
 		print("the num is not a int")
 		break
 if(val>0):
-	print("positive")
+	print("Positive")
 elif(val==0):
 	print("zero")
 else:
-	print("negative")
+	print("Negative")
