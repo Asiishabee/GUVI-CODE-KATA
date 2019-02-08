@@ -1,8 +1,8 @@
-lower,upper=input().split()
-lower=int(lower)
-upper=int(upper)
-for num in range(lower+1,upper):
-	if(num%2==0):
-		print(num)
+lwr,upr=input().split()
+lwr=int(lwr)
+upr=int(upr)
+for z in range(lwr+1,upr):
+	if(z%2==0):
+		print(z)
 			
 		
