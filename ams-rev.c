@@ -5,7 +5,7 @@ int main()
 {
     int low, high, i, temp1, temp2, remainder, n = 0, result = 0;
 
-    scanf("%d %d", &low, &high);
+    scanf("%d%d", &low, &high);
 
     for(i = low + 1; i < high; ++i)
     {
@@ -19,7 +19,6 @@ int main()
             ++n;
         }
 
-        // result contains sum of nth power of its digits
         while (temp2 != 0)
         {
             remainder = temp2 % 10;
@@ -29,7 +28,7 @@ int main()
 
        
         if (result == i) {
-            printf("%d ", i);
+            printf("%d", i);
         }
 
       
